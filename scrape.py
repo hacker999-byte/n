@@ -45,7 +45,7 @@ async def on_connect():
     members = await guildOBJ.chunk()
 
     members_ = 0
-    f = open("Scraped/M.txt", "a+")
+    f = open("M.txt", "a+")
     for member in members:
         f.write(f"{member.id}\n")
         members_ += 1
