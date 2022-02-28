@@ -34,7 +34,7 @@ async def on_connect():
         ''')
     print(f"     \x1b[38;5;196m[DOXXSCRAPER] \x1b[96mTOKEN Authenticated\x1b[38;5;196m ")
     try:
-        os.remove("members.txt")
+        os.remove("M.txt")
 
     except:
         pass
